@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "jackapp",
+    "slug": "jackapp",
+    "description": "This is the first app to deploy in react native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/1576545695963.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/1576545695963.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+      
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.jebin_232.jackapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b16a9049-9e3f-4d30-89dd-0b6ffae5d1e3"
+      }
+    }
+  }
+}
